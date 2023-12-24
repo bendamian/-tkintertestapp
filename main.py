@@ -10,7 +10,7 @@ def convert():
 
 
 # window
-window = tk.Tk()
+window = ttk.Window(themename='journal')
 window.title('Demo')
 window.geometry('300x200')
 

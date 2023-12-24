@@ -1,5 +1,6 @@
 import tkinter as tk
-from tkinter import ttk
+# from tkinter import ttk
+import ttkbootstrap as ttk
 
 
 def convert():
@@ -26,7 +27,7 @@ entry.pack(side="left", padx=10)
 button.pack(side="left")
 input_frame.pack(pady=10)
 output_string = tk.StringVar()
-output_label = ttk.Label(master=window, text=f"output", font='sans-serif  12 bold',textvariable=output_string)
+output_label = ttk.Label(master=window, text=f"output", font='sans-serif  12 bold', textvariable=output_string)
 output_label.pack(pady=5)
 
 window.mainloop()
